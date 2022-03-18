@@ -7,7 +7,8 @@ body{
     margin: 0; 
     background-image: url("background.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-position: left;
+    background-size: cover;
     }
 .home{
     text-align: center;
@@ -181,8 +182,8 @@ body{
 @media (max-width: 1020px){
     .contentContainer{
         justify-content: right;
-        padding-right: 0;
-        padding-top: 120px;
+        padding-right: 70px;
+        padding-top: 20px;
     }
     .content{
         flex-direction: column;
@@ -214,15 +215,38 @@ body{
     .contentContainer{
         justify-content: center;
         padding-right: 0;
-        padding-top: 230px;
+        padding-top: 280px;
     }
     .projects{
         margin: 8px;
         width: 250px;
         height: 250px;
     }
+    .container2of2{
+        flex-direction: column;
+    }
+    .SocialIcons{
+        gap: 10px;
+        padding-right: 40px;
+    }
+    .container2{
+        height: 768px;
+        padding-top: 20px;
+    }
+    .container2of2{
+        flex-direction: column;
+    }
+    .container3{
+     padding-top: 150px;
+    }
+    .images{
+        width: 190px;
+        height: 100px;
+        margin-top: 10px;
+        border: rgb(38, 215, 19) solid 1px;
+    }
+ }
 
-}
 @media (max-width: 720px){
     .contentContainer{
         justify-content: center;
@@ -286,4 +310,3 @@ body{
         border: rgb(38, 215, 19) solid 1px;
     }
  }
- 
