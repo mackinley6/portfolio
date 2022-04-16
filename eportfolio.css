@@ -1,0 +1,78 @@
+.imgDesign{
+    background-color: white;
+    border-radius: 50%;
+    max-width: 600px;
+    max-height: 600px;
+    background-size: auto;
+}
+.background1{
+    background-image: url("bg2.1.png");
+    background-size: cover;
+    background-position: center;
+}
+.background2{
+    background-image: url("bg2.222.png");
+    background-size: cover;
+    background-position: center;
+}
+.background3{
+    background-image: url("bg2.3.png");
+    background-size: cover;
+    background-position: center;
+}
+.infoAbout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hi{
+    max-width: 60px;
+}
+.myName{
+    max-width: 540px;
+}
+.aboutMe{
+    max-width: 600px;
+}
+p{
+    font-size: 1.4rem;
+}
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    gap: 12px;
+    padding-right: 36px;
+}
+.socialDesign{
+    display: flex;
+    background-color: black;
+    border-radius: 50%;
+}
+.socialDesign a{
+    color: white;
+    text-decoration: none;
+}
+.portfolio{
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputForm div{
+    max-width: 600px;
+}
+.textAreaD{
+    resize: none;
+    box-sizing: border-box;
+    max-width: 600px;
+}
+.sendBtn{
+    max-height: 50px;
+}
